@@ -1,7 +1,7 @@
 <?php
 namespace Loostie\YummyDL;
 
-class YummyRedTube {
+class RedTube {
     public $videoUrl;
 
     private $regx_vid = '/"videoUrl":"(?:[^"]|"")*"/s';

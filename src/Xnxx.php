@@ -1,7 +1,7 @@
 <?php
 namespace Loostie\YummyDL;
 
-class YummyXnxx {
+class Xnxx {
     public $videoUrl;
 
     private $regx_vid = '/"contentUrl": "([^"]*)",/s';

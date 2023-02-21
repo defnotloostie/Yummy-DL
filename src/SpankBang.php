@@ -1,7 +1,7 @@
 <?php
 namespace Loostie\YummyDL;
 
-class YummySpankBang {
+class SpankBang {
     public $videoUrl;
 
     private $regx_vid = '/"contentUrl": "([^"]*)",/s';

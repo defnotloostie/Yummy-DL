@@ -1,7 +1,7 @@
 <?php
 namespace Loostie\YummyDL;
 
-class YummyXvideos {
+class Xvideos {
     public $videoUrl;
 
     private $regx_vid = '/html5player\.setVideoUrlHigh\(\'([^\']*)\'\);/s';
