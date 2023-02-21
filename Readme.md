@@ -33,13 +33,13 @@ If the video data for some reason could not be retrieved, all of the above will 
 <?php
 require 'vendor/autoload.php'; // Composer's autoloader
 
-use Loostie\YummyDL\YummyRedTube;       // For RedTube
-use Loostie\YummyDL\YummySpankBang;     // For SpankBang
-use Loostie\YummyDL\YummyXnxx;          // For Xnxx
-use Loostie\YummyDL\YummyXvideos;       // For Xvideos
+use Loostie\YummyDL\RedTube;       // For RedTube
+use Loostie\YummyDL\SpankBang;     // For SpankBang
+use Loostie\YummyDL\Xnxx;          // For Xnxx
+use Loostie\YummyDL\Xvideos;       // For Xvideos
 
 // In this example we use Xvideos, but the procedure is the same for all of them
-$video = new YummyXvideos();
+$video = new Xvideos();
 $video->setUrl("https://xvideos.com/your_preferred_video");
 $video_data = $video->getVideoData();
 
