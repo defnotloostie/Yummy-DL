@@ -1,0 +1,21 @@
+{
+    "name": "loostie/yummy-dl",
+    "description": "Provides a simple way to fetch data for videos on adult sites",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Loostie",
+            "email": "lustdev@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-curl": "*"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Loostie\\YummyDL": "src/"
+        }
+    }
+}
